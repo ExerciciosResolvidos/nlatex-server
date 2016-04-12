@@ -1,0 +1,24 @@
+{
+  "name": "nlatex_server",
+  "version": "1.0.0",
+  "description": "A express image server for LateX formulas\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LateX",
+    "Formulas",
+    "Math",
+    "node",
+    "TeX",
+    "png"
+  ],
+  "author": "Luiz Zamboni",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "latex_to_png": "git+https://github.com/luizamboni/node_latex_to_png.git"
+  }
+}
