@@ -1,4 +1,4 @@
-LatexServer
+NodeLatexServer
 ===
 A server to provide image from **LateX** formulas
 
