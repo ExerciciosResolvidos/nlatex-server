@@ -2,13 +2,17 @@ NodeLatexServer
 ===
 A server to provide image from **LateX** formulas
 
- Provides a simple image server to respond an API and render formulas as images
+Provides a simple image server to respond an API and render formulas as images
 
 # Table of Contents
+* [Requirements](#requirements)
 * [How it Works](#how-it-works)
 * [Install and Dependencies](#install-and-dependencies)
 * [Start](#start)
 
+# Requirements
+
+* Nodejs v10
 
 # How it Works
  - Get a formula LateX tha you want: `x^2 + 0x - 9 = 0`
